@@ -2,7 +2,7 @@
 
 Proyek ini merupakan WebGIS sederhana berbasis **Leaflet.js** yang menampilkan lokasi rumah sakit di Kota Bogor. Data yang ditampilkan bersifat **dummy/hardcoded** dan tidak merepresentasikan data resmi.
 
-![Screenshot](screenshot.png) <!-- opsional jika kamu ingin menambahkan tangkapan layar -->
+![Screenshot](screenshot.png)
 
 ## 🔍 Fitur
 
