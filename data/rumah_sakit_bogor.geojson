@@ -221,6 +221,32 @@
         "type": "Point",
         "coordinates": [106.8532, -6.6783]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RSU Dr. Marzoeki Mahdi",
+        "alamat": "Jl. DR. Sumeru No.114, Bogor Barat",
+        "telepon": "(0251) 8310000",
+        "jenis": "Rumah Sakit Jiwa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7804, -6.587]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RSIA Sawojajar",
+        "alamat": "Jl. Sawojajar No.9, Bogor Tengah",
+        "telepon": "(0251) 8312345",
+        "jenis": "Rumah Sakit Ibu dan Anak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.806, -6.593]
+      }
     }
   ]
 }
