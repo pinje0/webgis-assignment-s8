@@ -1,0 +1,30 @@
+body {
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#map {
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom popup styling */
+.popup-content {
+  padding: 4px 0;
+}
+
+.popup-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #0d7b25;
+  margin-bottom: 6px;
+}
+
+.popup-label {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 65px;
+  color: #444;
+}

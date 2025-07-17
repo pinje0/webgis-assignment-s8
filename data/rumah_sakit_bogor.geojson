@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Ummi Bogor",
+        "alamat": "Jl. Empang II No.2, Bogor Selatan",
+        "telepon": "(0251) 8341600",
+        "jenis": "Rumah Sakit Umum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7946, -6.6087]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Hermina Bogor",
+        "alamat": "Jl. Ciparigi No.2, Bogor Utara",
+        "telepon": "(0251) 8311122",
+        "jenis": "Rumah Sakit Ibu dan Anak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8156, -6.6027]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Azra Bogor",
+        "alamat": "Jl. KH. Sholeh Iskandar No.114, Tanah Sareal",
+        "telepon": "(0251) 8315000",
+        "jenis": "Rumah Sakit Umum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8128, -6.5733]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RSUD Kota Bogor",
+        "alamat": "Jl. DR. Semeru No.120, Menteng, Bogor Barat",
+        "telepon": "(0251) 8312292",
+        "jenis": "Rumah Sakit Pemerintah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7804, -6.5877]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Islam Bogor",
+        "alamat": "Jl. Perdana Raya Kav. 1, Tanah Sareal",
+        "telepon": "(0251) 8356456",
+        "jenis": "Rumah Sakit Swasta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8101, -6.5834]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Mulia Pajajaran",
+        "alamat": "Jl. Raya Pajajaran No.80, Baranangsiang",
+        "telepon": "(0251) 8317525",
+        "jenis": "Rumah Sakit Khusus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.812, -6.597]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Bhayangkara TK IV Bogor",
+        "alamat": "Jl. Kapten Muslihat No.18, Bogor Tengah",
+        "telepon": "(0251) 8325027",
+        "jenis": "Rumah Sakit Kepolisian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7925, -6.5913]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Bunda Suryatni",
+        "alamat": "Jl. Raya Pajajaran No.12, Bogor Timur",
+        "telepon": "(0251) 8321001",
+        "jenis": "Rumah Sakit Ibu dan Anak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8301, -6.5968]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS PMI Bogor",
+        "alamat": "Jl. Raya Pajajaran No.80, Bogor Tengah",
+        "telepon": "(0251) 8314155",
+        "jenis": "Rumah Sakit Swasta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.807, -6.6015]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Sentosa Bogor",
+        "alamat": "Jl. Raya Tajur No.168, Bogor Selatan",
+        "telepon": "(0251) 8378123",
+        "jenis": "Rumah Sakit Umum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8253, -6.6302]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Graha Medika",
+        "alamat": "Jl. Raya Cibinong No.34, Bogor Utara",
+        "telepon": "(0251) 8391234",
+        "jenis": "Rumah Sakit Umum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8382, -6.5744]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Siloam Bogor",
+        "alamat": "Jl. Padjajaran Indah V No.97, Bogor Timur",
+        "telepon": "(0251) 8889090",
+        "jenis": "Rumah Sakit Swasta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.827, -6.6011]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Harapan Sehat",
+        "alamat": "Jl. Sholeh Iskandar No.45, Tanah Sareal",
+        "telepon": "(0251) 8320002",
+        "jenis": "Rumah Sakit Umum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.81, -6.578]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Medika Cibinong",
+        "alamat": "Jl. Mayor Oking Jaya Atmaja No.25, Bogor",
+        "telepon": "(0251) 8650000",
+        "jenis": "Rumah Sakit Umum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.869, -6.4865]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RSU Melania",
+        "alamat": "Jl. Raya Pajajaran No.47, Bogor Tengah",
+        "telepon": "(0251) 8321740",
+        "jenis": "Rumah Sakit Umum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8088, -6.6003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Dhuafa Bogor",
+        "alamat": "Jl. Raya Taman Cimanggu No.12, Tanah Sareal",
+        "telepon": "(0251) 8561234",
+        "jenis": "Rumah Sakit Swasta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7902, -6.5732]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RS Bhakti Husada",
+        "alamat": "Jl. Raya Ciawi No.20, Bogor Selatan",
+        "telepon": "(0251) 8887770",
+        "jenis": "Rumah Sakit Umum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8532, -6.6783]
+      }
+    }
+  ]
+}
