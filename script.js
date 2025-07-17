@@ -11,18 +11,17 @@ fetch('data/rumah_sakit_bogor.geojson')
     let totalRS = data.features.length;
     document.getElementById('jumlah-rs').textContent = `Total: ${totalRS} Rumah Sakit`;
 
-    L.geoJSON(data, {
+    const geojsonLayer = L.geoJSON(data, {
       onEachFeature: function (feature, layer) {
         const props = feature.properties;
         const popupContent = `
-  <div class="popup-content">
-    <div class="popup-title">${props.nama}</div>
-    <div><span class="popup-label">Jenis:</span> ${props.jenis ?? '-'}</div>
-    <div><span class="popup-label">Alamat:</span> ${props.alamat}</div>
-    <div><span class="popup-label">Telepon:</span> ${props.telepon ?? '-'}</div>
-  </div>
-`;
-
+          <div class="popup-content">
+            <div class="popup-title">${props.nama}</div>
+            <div><span class="popup-label">Jenis:</span> ${props.jenis ?? '-'}</div>
+            <div><span class="popup-label">Alamat:</span> ${props.alamat}</div>
+            <div><span class="popup-label">Telepon:</span> ${props.telepon ?? '-'}</div>
+          </div>
+        `;
         layer.bindPopup(popupContent);
       },
       pointToLayer: function (feature, latlng) {
@@ -36,4 +35,7 @@ fetch('data/rumah_sakit_bogor.geojson')
         });
       },
     }).addTo(map);
+
+    // Auto zoom to all markers
+    map.fitBounds(geojsonLayer.getBounds());
   });
